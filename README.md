@@ -21,3 +21,24 @@ youtube-rag-app/
 ├─ supporting_functions.py # Helper functions for embeddings & vector store
 ├─ requirements.txt # All dependencies
 ├─ README.md # Project documentation
+
+## Installation (Local Setup)
+1. **Clone the repository**
+git clone https://github.com/<your-username>/youtube-rag-app.git
+cd youtube-rag-app
+
+2.Create and activate a virtual environment
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+
+3.Install dependencies
+pip install -r requirements.txt
+
+4.Run the Streamlit app
+streamlit run app.py
+
+
+
